@@ -80,6 +80,7 @@ nav ul li a:hover{
 /* ===== Banner ===== */
 .banner{
     max-width: 1140px;
+    height: auto;
     margin:auto;
     display: flex;
     align-items: center;
