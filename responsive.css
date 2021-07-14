@@ -66,18 +66,17 @@
     
     .banner{
         padding: 15px;
-        overflow: hidden;
-        height: 1000px;
+        margin-top: 150px;
     }
     .banner-left-col{
-        flex-basis: 100%;
+        flex-basis: 50%;
         margin-bottom: 50px; 
      }
      .banner-right-col{
-         flex-basis: 100%;
+         flex-basis: 50%;
      }
      .banner-left-col h1{
-        font-size: 60px;
+        font-size: 45px;
     }
     .single-player{
         flex-basis: 48%;
