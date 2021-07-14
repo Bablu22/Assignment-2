@@ -51,7 +51,7 @@
 
 /* =========================== Tablet Device =============================*/
 
-@media screen and (min-width: 768px) and (max-width: 959px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     nav{
         display: none;
     }
