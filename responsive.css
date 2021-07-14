@@ -1,0 +1,97 @@
+@media only screen and (max-width:700px){
+
+   nav{
+       display: none;
+   }
+   .nav-btn{
+      display: none;
+    }
+
+
+
+    /* Banner */
+    .banner{
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .banner-left-col{
+       flex-basis: 100%;
+       margin-bottom: 50px;
+        
+    }
+    .banner-left-col h1{
+        font-size: 36px;
+        
+    }
+    .banner-right-col{
+        flex-basis: 100%;
+    }
+
+/* Players */
+.single-player{
+    flex-basis: 100%;
+}
+
+
+/* Highlight */
+#highlight{
+    padding: 15px;
+}
+.highlight-left,.highlight-right{
+    flex-basis: 100%;
+}
+.highlight-left{
+    margin-bottom: 30px;
+}
+.highlight-left h2{
+    font-size: 30px;
+}
+
+}
+
+/* =========================== Tablet Device =============================*/
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    nav{
+        display: none;
+    }
+    .nav-btn{
+       display: none;
+     }nav{
+    display: none;
+}
+.nav-btn{
+   display: none;
+ }
+    
+    .banner{
+        padding: 15px;
+        overflow: hidden;
+    }
+    .banner-left-col{
+        flex-basis: 100%;
+        margin-bottom: 50px; 
+     }
+     .banner-right-col{
+         flex-basis: 100%;
+     }
+     .banner-left-col h1{
+        font-size: 50px;
+    }
+    .single-player{
+        flex-basis: 48%;
+    }
+    .highlight-left,.highlight-right{
+        flex-basis: 100%;
+    }
+    .highlight-left{
+        margin-bottom: 40px;
+    }
+    .highlight-left h2{
+        font-size: 40px;
+    }
+    .highlight-content{
+        padding: 20px;
+    }
+
+} 
