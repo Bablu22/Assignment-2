@@ -67,6 +67,7 @@
     .banner{
         padding: 15px;
         overflow: hidden;
+        height: 1000px;
     }
     .banner-left-col{
         flex-basis: 100%;
@@ -76,7 +77,7 @@
          flex-basis: 100%;
      }
      .banner-left-col h1{
-        font-size: 50px;
+        font-size: 60px;
     }
     .single-player{
         flex-basis: 48%;
