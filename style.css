@@ -23,12 +23,6 @@ a{
 }
 
 
-
-
-
-
-
-
 /* ------------------------- Header part start here ------------------------- */
 #header{
     height: 100vh;
@@ -90,14 +84,15 @@ nav ul li a:hover{
     flex-wrap: wrap;
 }
 .banner-left-col{
-
-width: 485px;
+flex-basis: 50%;
+/* width: 485px; */
 }
 .banner-left-col h1{
     font-size: 64px;
 }
 .banner-right-col{
-  width: 556px;
+    flex-basis: 50%;
+  /* width: 556px; */
 }
 .banner-right-col img{
     width: 100%;

@@ -92,19 +92,20 @@
 .nav-btn{
    display: none;
  }
-    
+    #header{
+        height: auto;
+    }
     .banner{
         padding: 15px;
         overflow: hidden;
-        height: 1000px;
     }
-    .banner-left-col{
+    /* .banner-left-col{
         flex-basis: 100%;
         margin-bottom: 50px; 
      }
      .banner-right-col{
          flex-basis: 100%;
-     }
+     } */
      .banner-left-col h1{
         font-size: 50px;
     }
