@@ -243,6 +243,88 @@ padding-bottom: 15px;
     width: 100%;
 }
 
+/* ------------------------------ News section ------------------------------ */
+#news h2{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.news-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.single-news{
+    flex-basis:23%;
+    text-align: left;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.single-news h3{
+    padding: 10px 0;
+}
+.single-news p{
+    color: gray;
+    text-align: initial;
+}
+.news-btn{
+    color: black;
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: .5s;
+    
+}
+.news-btn:hover{
+    background-color: #E02C6D;
+    color: white;
+    border-color: #E02C6D;
+}
+.news-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    font-size: 14px;
+}
+.single-news img{
+    width: 100%;
+}
+
+/* ------------------------------ Sponsor area ------------------------------ */
+#sponsor{
+  margin: 100px 0;
+}
+#sponsor h2{
+    text-align: left;
+    padding: 50px 0;
+}
+.sponsor-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.single-sponsor{
+    flex-basis: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer style */
 footer{

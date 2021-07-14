@@ -47,7 +47,36 @@
     font-size: 30px;
 }
 
+/* ================ news=============*/
+#news{
+    padding: 5px;
 }
+.single-news{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+/* sponsor area */
+#sponsor{
+    padding: 10px;
+}
+.single-sponsor{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* =========================== Tablet Device =============================*/
 
@@ -94,5 +123,26 @@
     .highlight-content{
         padding: 20px;
     }
+
+
+    /* ================ news=============*/
+
+ #news{
+        padding: 5px;
+ }
+.single-news{
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+/* sponsor area */
+#sponsor{
+    padding: 10px;
+}
+.single-sponsor{
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+
 
 } 
